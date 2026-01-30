@@ -1,5 +1,0 @@
-file = open('example.txt', 'w')
-file.write('Hello, world!\n')
-file.write('This is a test file.\n')
-file.write('Goodbye, world!\n')
-file.close()
