@@ -61,7 +61,7 @@ def split_bill(total_amount, num_people, tip_percent=18, tax_percent=8.5):
     total_with_tax = total_amount + tax
 
     # Step 2: Calculate tip amount (on the after-tax total) and add it
-    tip = total_with_tax * (tip_percent / 100)
+    tip = total_amount * (tip_percent / 100)
     total_with_tiptax = tip + total_with_tax
 
     # Step 3: Divide by num_people
